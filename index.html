@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educational Resource Hub</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-green" href="#home">EduHub</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#categories-section">Categories</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="py-5 text-center">
+      <div class="container bg-green px-0">
+        <h1 class="pt-3">Welcome to EduHub</h1>
+        <p class="bg-black text-green">
+          Your one-stop solution for educational resources.
+        </p>
+      </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="py-5 bg-light text-center">
+      <div class="container px-sm-0">
+        <h2 class="text-green bg-black mb-4">Introduction</h2>
+        <p>
+          Explore the world of knowledge with EduHub, where you'll find a
+          carefully selected collection of resources to spark your curiosity and
+          broaden your understanding.
+        </p>
+      </div>
+    </section>
+
+    <!-- Featured Section -->
+    <!-- Featured Section -->
+    <section id="featured" class="py-5 text-center">
+      <div class="container px-sm-0">
+        <h2 class="text-green bg-black mb-4">Featured Resources</h2>
+        <div class="card-group gap-2">
+          <div class="card border border-2 border-black rounded-0">
+            <img
+              src="https://www.boardinfinity.com/blog/content/images/2023/01/Mern.png"
+              alt="MERN"
+              class="card-img-top rounded-0"
+            />
+            <div class="card-body">
+              <h5 class="card-title bg-green">MERN Web Development</h5>
+              <p class="card-text">
+                This resource aims to guide beginners to create their own
+                website.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn-green">View</button>
+            </div>
+          </div>
+          <div class="card border border-2 border-black rounded-0">
+            <img
+              src="https://miro.medium.com/v2/resize:fit:498/1*5gJzummAqpBDGATo0fjU6Q.jpeg"
+              alt="html"
+              class="card-img-top rounded-0"
+            />
+            <div class="card-body">
+              <h5 class="card-title bg-green">HTML</h5>
+              <p class="card-text">
+                Learn how to create your own website with ease! This beginner's
+                guide provides step-by-step instructions
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn-green">View</button>
+            </div>
+          </div>
+          <div class="card border border-2 border-black rounded-0">
+            <img
+              src="https://miro.medium.com/v2/resize:fit:1400/0*ytANIwmqNBf56XMN"
+              alt="error"
+              class="card-img-top rounded-0"
+            />
+            <div class="card-body">
+              <h5 class="card-title bg-green">Debugging Techniques</h5>
+              <p class="card-text">Techniques that you should know.</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn-green">View</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories-section" class="py-5 bg-light">
+      <div class="container px-sm-0">
+        <h2 class="bg-black text-green text-center mb-4">Categories</h2>
+        <div id="categories">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  Front-End
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <div class="accordion-body bg-black text-green">
+                  <strong>Front-end web development</strong> is the development
+                  of the graphical user interface of a website through the use
+                  of HTML, CSS, and JavaScript so users can view and interact
+                  with that website. Here's the following resources that may
+                  help&colon;
+                  <ul>
+                    <li><a href="#">Resource 1</a></li>
+                    <li><a href="#">Resource 2</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseTwo"
+                >
+                  Back-End
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo"
+              >
+                <div class="accordion-body bg-black text-green">
+                  <strong>Back-end developers</strong> are the experts who build
+                  and maintain the mechanisms that process data and perform
+                  actions on websites. Unlike front-end developers, who control
+                  everything you can see on a website, back-end developers are
+                  involved in data storage, security, and other server-side
+                  functions that you cannot see. Here's the following resources
+                  that may help&colon;
+                  <ul>
+                    <li><a href="#">Resource 1</a></li>
+                    <li><a href="#">Resource 2</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseThree"
+                >
+                  FullStack
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree"
+              >
+                <div class="accordion-body bg-black text-green">
+                  <strong>Full-stack developers</strong> have a high level of
+                  competency in both frontend and backend languages. They are
+                  skilled in HTML, CSS, JavaScript, NodeJS, ExpressJS, Django,
+                  and PHP. Equally, full-stack developers understand various
+                  database management systems (DBMS) like MySQL, PostgreSQL,
+                  MongoDB, and more. Here's the following resources that may
+                  help&colon;
+                  <ul>
+                    <li><a href="#">Resource 1</a></li>
+                    <li><a href="#">Resource 2</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseFour"
+                  aria-expanded="false"
+                  aria-controls="panelsStayOpen-collapseFour"
+                >
+                  Archives
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseFour"
+                class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour"
+              >
+                <div class="accordion-body bg-black text-green">
+                  Web developers must know this. Here's the following resources
+                  that may help&colon;
+                  <ul>
+                    <li><a href="#">Resource 1</a></li>
+                    <li><a href="#">Resource 2</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 text-center">
+      <div class="container px-sm-0">
+        <h2 class="bg-black text-green mb-4">About Us</h2>
+        <div id="mission">
+          <p>
+            At EduHub, we believe that education is the key to unlocking human
+            potential. Our mission is to provide a platform for learners and
+            educators to connect, share, and learn from each other, regardless
+            of their geographical location or background.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light text-center">
+      <div class="container px-sm-0">
+        <h2 class="bg-black text-green">Contact Us</h2>
+        <p class="my-4">
+          We'd love to hear from you! Whether you have a question, a comment, or
+          just want to say hello, we're here to help.
+        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <div style="height: 100%; width: 100%">
+              <iframe
+                width="100%"
+                height="100%"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                ><a href="https://www.gps.ie/">gps systems</a></iframe
+              >
+            </div>
+          </div>
+
+          <div class="col-md-6 text-start">
+            <form class="card bg-black text-green rounded-0">
+              <div class="card-body">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Name:</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-control"
+                    placeholder="Your Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email:</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message:</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-control"
+                    rows="2"
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn-green">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green text-center py-3">
+      <p class="m-0">© 2024 EduHub. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

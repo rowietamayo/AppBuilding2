@@ -1,0 +1,78 @@
+:root {
+  --green: #15ff00;
+  --black: #040404;
+}
+
+body {
+  color: var(--black);
+  font-family: "Courier Prime", "Arial", sans-serif;
+}
+
+nav {
+  background-color: var(--black);
+}
+
+.nav-link {
+  color: var(--green);
+}
+.nav-link:hover {
+  color: var(--black);
+  background-color: var(--green);
+}
+
+.card > img {
+  height: 240px;
+  object-fit: cover;
+}
+
+.card-footer {
+  background-color: white;
+  border-color: transparent;
+}
+
+a {
+  font-weight: bold;
+  color: var(--green);
+}
+.accordion-item:first-of-type,
+.accordion-item:last-of-type,
+.accordion-item:first-of-type .accordion-button,
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 0;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--black);
+  background-color: var(--green);
+}
+.accordion-button.collapsed {
+  color: var(--green);
+  background-color: var(--black);
+}
+.accordion-button.collapsed::after {
+  color: var(--green);
+}
+
+iframe {
+  border: 2px solid var(--black);
+}
+.form-control {
+  border-radius: 0;
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+.bg-green {
+  background-color: var(--green);
+}
+.text-green {
+  color: var(--green);
+}
+.btn-green {
+  padding: 4px 24px;
+  background-color: var(--green);
+}
+.btn-green:hover {
+  color: var(--green);
+  background-color: var(--black);
+}
